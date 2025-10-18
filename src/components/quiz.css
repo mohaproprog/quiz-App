@@ -67,12 +67,10 @@ body{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     overflow-y: scroll;
+    scrollbar-width:none;
     color: #fff;
 }
-.history::-webkit-scrollbar{
-    overflow: hidden;
 
-}
 .history i{
     font-size: 20px;
     color: black;
